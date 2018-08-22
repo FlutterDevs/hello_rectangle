@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Hello Rectangle'),
-        ),
-        body: HelloRectangle(),
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text('Hello Rectangle'),
       ),
+      body: HelloRectangle(),
     ),
-  );
+  ));
 }
 
 class HelloRectangle extends StatelessWidget {
@@ -26,7 +24,6 @@ class HelloRectangle extends StatelessWidget {
           child: Text(
             'Hello!',
             style: TextStyle(fontSize: 40.0),
-            textAlign: TextAlign.center,
           ),
         ),
       ),
