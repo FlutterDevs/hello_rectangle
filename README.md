@@ -1,4 +1,4 @@
-# hello_rectangle
+# Flutter Study Jam
 
 A new Flutter project.
 
