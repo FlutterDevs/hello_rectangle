@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_rectangle/unit.dart';
+import 'package:study_jam/unit.dart';
 
 class ConverterScreen extends StatefulWidget {
   final List<Unit> units;

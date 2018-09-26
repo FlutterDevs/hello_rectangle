@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hello_rectangle/unit.dart';
-import 'package:hello_rectangle/converter_screen.dart';
+import 'package:study_jam/unit.dart';
+import 'package:study_jam/converter_screen.dart';
 
 final _rowHeight = 100.0;
 final _borderRadius = BorderRadius.circular(_rowHeight / 2);
