@@ -21,7 +21,7 @@ class EasyButton extends StatelessWidget {
             'easy',
             style: TextStyle(
                 fontSize: 110.0,
-				fontStyle: FontStyle.italic,
+                fontStyle: FontStyle.italic,
                 fontFamily: 'Slabo',
                 color: Colors.white70),
           ),
