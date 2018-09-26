@@ -1,4 +1,4 @@
-# Flutter Study Jam 
+# Flutter Study Jam
 
 A new Flutter project.
 
