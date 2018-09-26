@@ -10,9 +10,10 @@ class Unit {
   })  : assert(name != null),
         assert(conversion != null);
 
+  /// Creates a [Unit] from a JSON object.
   Unit.fromJson(Map jsonMap)
-      : name = jsonMap['name'],
-        conversion = jsonMap['conversion'].toDouble(),
-        assert(name != null),
-        assert(conversion != null);
+      : assert(jsonMap['name'] != null),
+        assert(jsonMap['conversion'] != null),
+        name = jsonMap['name'],
+        conversion = jsonMap['conversion'].toDouble();
 }
